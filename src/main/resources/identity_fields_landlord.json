@@ -1,0 +1,23 @@
+[
+  {
+    "id": 2117,
+    "label": "First Name",
+    "value": ""
+  },
+  {
+    "id": 2118,
+    "label": "Last Name",
+    "value": ""
+  },
+  {
+    "id": 2119,
+    "label": "Email",
+    "validationType": "EMAIL",
+    "value": ""
+  },
+  {
+    "id": 2120,
+    "label": "Address",
+    "value": ""
+  }
+]

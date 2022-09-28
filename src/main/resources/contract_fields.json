@@ -1,0 +1,1547 @@
+[
+  {
+    "id": 3775,
+    "label": "Name",
+    "name": "contract_name",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3775"
+      }
+    ]
+  },
+  {
+    "id": 3776,
+    "label": "Address of the property",
+    "name": "contract_address",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3776"
+      }
+    ]
+  },
+  {
+    "id": 3777,
+    "label": "Agreement Date",
+    "name": "contract_agreementDate",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3777"
+      }
+    ]
+  },
+  {
+    "id": 3778,
+    "label": "Is the property subject to a mortgage?",
+    "name": "contract_mortgage",
+    "options": [
+      {
+        "value": "mortgageYes"
+      },
+      {
+        "value": "mortgageNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3778"
+      }
+    ]
+  },
+  {
+    "id": 3779,
+    "label": "How frequently will the rent be paid?",
+    "name": "contract_rentFrequency",
+    "options": [
+      {
+        "value": "month",
+        "nested_fields": [
+          {
+            "id": 3860,
+            "label": "Would the Landlord and Tenant like to introduce a break clause?",
+            "name": "contract_breakClause",
+            "options": [
+              {
+                "value": "breakClauseYes",
+                "nested_fields": [
+                  {
+                    "id": 3861,
+                    "label": "After how many months of the Tenancy can the Landlord and Tenant serve a break notice?",
+                    "name": "contract_breakClauseStart",
+                    "options": [
+                      {
+                        "value": "3 months"
+                      },
+                      {
+                        "value": "6 months"
+                      }
+                    ],
+                    "links": [
+                      {
+                        "rel": "self",
+                        "href": "https://sandbox.legislate.tech/v1/terms/3861"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "value": "breakClauseNo"
+              }
+            ],
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3860"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "week"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3779"
+      }
+    ]
+  },
+  {
+    "id": 3780,
+    "label": "Is the Landlord bound by a Superior Lease?",
+    "name": "contract_superiorLease",
+    "options": [
+      {
+        "value": "superiorLeaseYes",
+        "nested_fields": [
+          {
+            "id": 3814,
+            "label": "Please attach the Superior Lease",
+            "name": "contract_superiorLeaseUpload",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3814"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "superiorLeaseNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3780"
+      }
+    ]
+  },
+  {
+    "id": 3781,
+    "label": "Start Date",
+    "name": "contract_startDate",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3781"
+      }
+    ]
+  },
+  {
+    "id": 3782,
+    "label": "Will the Tenant be assigned a parking space?",
+    "name": "contract_parking",
+    "options": [
+      {
+        "value": "parkingYes",
+        "nested_fields": [
+          {
+            "id": 3783,
+            "label": "Please provide the details of the parking.",
+            "name": "contract_parkingAddress",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3783"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "parkingNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3782"
+      }
+    ]
+  },
+  {
+    "id": 3784,
+    "label": "Has the Landlord engaged an Agent to enter into this agreement?",
+    "name": "contract_agent",
+    "options": [
+      {
+        "value": "agentYes",
+        "nested_fields": [
+          {
+            "id": 3785,
+            "label": "Agent Name",
+            "name": "contract_agentName",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3785"
+              }
+            ]
+          },
+          {
+            "id": 3786,
+            "label": "Address of the Agent",
+            "name": "contract_agentAddress",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3786"
+              }
+            ]
+          },
+          {
+            "id": 3787,
+            "label": "Agent Phone Number",
+            "name": "contract_agentPhone",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3787"
+              }
+            ]
+          },
+          {
+            "id": 3788,
+            "label": "Agent Email Address",
+            "name": "contract_agentEmail",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3788"
+              }
+            ]
+          },
+          {
+            "id": 3847,
+            "label": "Is the Agent creating the tenancy Agreement?",
+            "name": "contract_agentSole",
+            "options": [
+              {
+                "value": "agentContractYes",
+                "nested_fields": [
+                  {
+                    "id": 3857,
+                    "label": "How will the Property be managed during the tenancy?",
+                    "name": "contract_agentJoint",
+                    "options": [
+                      {
+                        "value": "managedLandlord"
+                      },
+                      {
+                        "value": "managedAgent"
+                      }
+                    ],
+                    "links": [
+                      {
+                        "rel": "self",
+                        "href": "https://sandbox.legislate.tech/v1/terms/3857"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "value": "agentContractNo"
+              }
+            ],
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3847"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "agentNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3784"
+      }
+    ]
+  },
+  {
+    "id": 3789,
+    "label": "How long after the end of the tenancy will the deposit be returned? ",
+    "name": "contract_depositReturn",
+    "options": [
+      {
+        "value": "5 Working Days"
+      },
+      {
+        "value": "10 Working Days"
+      },
+      {
+        "value": "20 Working Days"
+      },
+      {
+        "value": "28 Working Days"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3789"
+      }
+    ]
+  },
+  {
+    "id": 3790,
+    "label": "Rent Amount",
+    "name": "contract_individualRent",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3790"
+      }
+    ]
+  },
+  {
+    "id": 3792,
+    "label": "What is the nature of the AST?",
+    "name": "contract_letType",
+    "options": [
+      {
+        "value": "hmo",
+        "nested_fields": [
+          {
+            "id": 3801,
+            "label": "Room",
+            "name": "contract_room",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3801"
+              }
+            ]
+          },
+          {
+            "id": 3812,
+            "label": "Would you like to attach the House Rules?",
+            "name": "contract_itemRepair",
+            "options": [
+              {
+                "value": "hmoHouseRulesYes",
+                "nested_fields": [
+                  {
+                    "id": 3846,
+                    "label": "Upload the House Rules",
+                    "name": "contract_softwareRole",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "href": "https://sandbox.legislate.tech/v1/terms/3846"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "value": "hmoHouseRulesNo"
+              }
+            ],
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3812"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "sole",
+        "nested_fields": [
+          {
+            "id": 3854,
+            "label": "Would you like to attach the leaseholder tenant Rules?",
+            "name": "contract_valuation",
+            "options": [
+              {
+                "value": "soleHouseRulesYes",
+                "nested_fields": [
+                  {
+                    "id": 3855,
+                    "label": "Upload the Rules",
+                    "name": "contract_sickPay",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "href": "https://sandbox.legislate.tech/v1/terms/3855"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "value": "soleHouseRulesNo"
+              }
+            ],
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3854"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "bedsit",
+        "nested_fields": [
+          {
+            "id": 3803,
+            "label": "Does the Property have a Property Manager?",
+            "name": "contract_propertyManager",
+            "options": [
+              {
+                "value": "propertyManagerYes",
+                "nested_fields": [
+                  {
+                    "id": 3804,
+                    "label": "Details of the Property Manager",
+                    "name": "contract_propertyManagerDetails",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "href": "https://sandbox.legislate.tech/v1/terms/3804"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "value": "propertyManagerNo"
+              }
+            ],
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3803"
+              }
+            ]
+          },
+          {
+            "id": 3819,
+            "label": "Bedsit",
+            "name": "contract_bedsit1",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3819"
+              }
+            ]
+          },
+          {
+            "id": 3852,
+            "label": "Would you like to attach the House/Bedsit Rules?",
+            "name": "contract_water",
+            "options": [
+              {
+                "value": "bedsitHouseRulesYes",
+                "nested_fields": [
+                  {
+                    "id": 3853,
+                    "label": "Upload the Rules",
+                    "name": "contract_staffHandBookUpload",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "href": "https://sandbox.legislate.tech/v1/terms/3853"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "value": "bedsitHouseRulesNo"
+              }
+            ],
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3852"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3792"
+      }
+    ]
+  },
+  {
+    "id": 3793,
+    "label": "Will the tenant be required to clean the Property to a professional standard on check out?",
+    "name": "contract_professionalClean",
+    "options": [
+      {
+        "value": "professionalCleanYes"
+      },
+      {
+        "value": "professionalCleanNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3793"
+      }
+    ]
+  },
+  {
+    "id": 3794,
+    "label": "Is the Landlord responsible for paying any utilities?",
+    "name": "contract_landlordUtilities",
+    "options": [
+      {
+        "value": "landlordUtilitiesYes",
+        "nested_fields": [
+          {
+            "id": 3796,
+            "label": "List of utilities to be paid by the Landlord",
+            "name": "contract_landlordUtilitiesDetails",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3796"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "landlordUtilitiesNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3794"
+      }
+    ]
+  },
+  {
+    "id": 3797,
+    "label": "Does the property have shared facilities?",
+    "name": "contract_sharedFacilities",
+    "options": [
+      {
+        "value": "sharedFacilitiesYes",
+        "nested_fields": [
+          {
+            "id": 3799,
+            "label": "Description of the shared facilities",
+            "name": "contract_sharedFacilitiesDetails",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3799"
+              }
+            ]
+          },
+          {
+            "id": 3848,
+            "label": "How many shared facilities does the Property have?",
+            "name": "contract_sharesNumber",
+            "options": [
+              {
+                "value": "sharedFacilitiesOne"
+              },
+              {
+                "value": "sharedFacilitiesTwo",
+                "nested_fields": [
+                  {
+                    "id": 3849,
+                    "label": "Description of the additional shared facilities",
+                    "name": "contract_softwareDescription",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "href": "https://sandbox.legislate.tech/v1/terms/3849"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "value": "sharedFacilitiesThree",
+                "nested_fields": [
+                  {
+                    "id": 3850,
+                    "label": "Description of the additional shared facilities",
+                    "name": "contract_softwareExceptions",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "href": "https://sandbox.legislate.tech/v1/terms/3850"
+                      }
+                    ]
+                  },
+                  {
+                    "id": 3851,
+                    "label": "Description of the additional shared facilities",
+                    "name": "contract_softwarePremises",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "href": "https://sandbox.legislate.tech/v1/terms/3851"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3848"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "sharedFacilitiesNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3797"
+      }
+    ]
+  },
+  {
+    "id": 3798,
+    "label": "Are there any permitted occupiers?",
+    "name": "contract_permittedOccupiers",
+    "options": [
+      {
+        "value": "permittedOccupiersYes",
+        "nested_fields": [
+          {
+            "id": 3800,
+            "label": "Details of the permitted occupiers",
+            "name": "contract_permittedOccupiersDetails",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3800"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "permittedOccupiersNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3798"
+      }
+    ]
+  },
+  {
+    "id": 3802,
+    "label": "End Date",
+    "name": "contract_endDate",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3802"
+      }
+    ]
+  },
+  {
+    "id": 3805,
+    "label": "Is the Tenant required to have a guarantor?",
+    "name": "contract_guarantorRequired",
+    "options": [
+      {
+        "value": "guarantorYes"
+      },
+      {
+        "value": "guarantorNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3805"
+      }
+    ]
+  },
+  {
+    "id": 3807,
+    "label": "Is the Tenant responsible for paying any utilities?",
+    "name": "contract_tenantUtilities",
+    "options": [
+      {
+        "value": "tenantUtilitiesYes",
+        "nested_fields": [
+          {
+            "id": 3808,
+            "label": "List of utilities to be paid by the Tenant",
+            "name": "contract_tenantUtilitiesDetails",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3808"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "tenantUtilitiesNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3807"
+      }
+    ]
+  },
+  {
+    "id": 3809,
+    "label": "Who is responsible for paying council tax?",
+    "name": "contract_councilTax",
+    "options": [
+      {
+        "value": "councilLandlord"
+      },
+      {
+        "value": "councilTenant"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3809"
+      }
+    ]
+  },
+  {
+    "id": 3811,
+    "label": "Will the tenancy continue as a contractual periodic tenancy after the End Date?",
+    "name": "contract_periodicRentConversion",
+    "options": [
+      {
+        "value": "periodicYes"
+      },
+      {
+        "value": "periodicNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3811"
+      }
+    ]
+  },
+  {
+    "id": 3815,
+    "label": "Is there any part of the property (including the exterior) which is excluded from this tenancy?",
+    "name": "contract_propertyExclusions",
+    "options": [
+      {
+        "value": "propertyExclusionsYes",
+        "nested_fields": [
+          {
+            "id": 3816,
+            "label": "Details of the property exclusions",
+            "name": "contract_propertyExclusionsDetails",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3816"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "propertyExclusionsNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3815"
+      }
+    ]
+  },
+  {
+    "id": 3820,
+    "label": "Who will pay the deposit?",
+    "name": "contract_depositOther",
+    "options": [
+      {
+        "value": "depositOtherTenant"
+      },
+      {
+        "value": "depositOtherSomeoneElse",
+        "nested_fields": [
+          {
+            "id": 3821,
+            "label": "Please specify their name and address",
+            "name": "contract_depositOtherDetails",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3821"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3820"
+      }
+    ]
+  },
+  {
+    "id": 3822,
+    "label": "Would the Landlord or Agent like to upload their logo to the Agreement?",
+    "name": "contract_logo",
+    "options": [
+      {
+        "value": "logoYes",
+        "nested_fields": [
+          {
+            "id": 3813,
+            "label": "Upload the Logo",
+            "name": "contract_logoDetails",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3813"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "logoNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3822"
+      }
+    ]
+  },
+  {
+    "id": 3823,
+    "label": "Is the Landlord happy to receive legal notices via email?",
+    "name": "contract_noticeConsentLandlord",
+    "options": [
+      {
+        "value": "noticeConsentLandlordYes",
+        "nested_fields": [
+          {
+            "id": 3817,
+            "label": "Email Address where the Landlord can receive notices",
+            "name": "contract_noticesEmailLandlord",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3817"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "noticeConsentLandlordNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3823"
+      }
+    ]
+  },
+  {
+    "id": 3824,
+    "label": "Is the Tenant happy to receive legal notices via email?",
+    "name": "contract_noticeConsentTenant",
+    "options": [
+      {
+        "value": "noticeConsentTenantYes",
+        "nested_fields": [
+          {
+            "id": 3818,
+            "label": "Email Address where the Tenant can receive notices",
+            "name": "contract_noticesEmailTenant",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3818"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "noticeConsentTenantNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3824"
+      }
+    ]
+  },
+  {
+    "id": 3825,
+    "label": "Deposit Amount",
+    "name": "contract_depositAmount",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3825"
+      }
+    ]
+  },
+  {
+    "id": 3826,
+    "label": "Account holder name where rent payments must be paid",
+    "name": "contract_bankHolderName",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3826"
+      }
+    ]
+  },
+  {
+    "id": 3827,
+    "label": "Bank Account Number",
+    "name": "contract_bankAccountNumber",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3827"
+      }
+    ]
+  },
+  {
+    "id": 3828,
+    "label": "Name of the bank where rent payments must be paid",
+    "name": "contract_bankDetails",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3828"
+      }
+    ]
+  },
+  {
+    "id": 3829,
+    "label": "Bank Account Sort Code",
+    "name": "contract_bankAccountSortCode",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3829"
+      }
+    ]
+  },
+  {
+    "id": 3830,
+    "label": "Please specify the Name and address of the Deposit provider's next of kin",
+    "name": "contract_depositNextKinName",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3830"
+      }
+    ]
+  },
+  {
+    "id": 3831,
+    "label": "By which day of the week or month should rent payments be made?",
+    "name": "contract_paymentDay",
+    "options": [
+      {
+        "value": "1st calendar day of the month"
+      },
+      {
+        "value": "2nd calendar day of the month"
+      },
+      {
+        "value": "3rd calendar day of the month"
+      },
+      {
+        "value": "4th calendar day of the month"
+      },
+      {
+        "value": "5th calendar day of the month"
+      },
+      {
+        "value": "6th calendar day of the month"
+      },
+      {
+        "value": "7th calendar day of the month"
+      },
+      {
+        "value": "8th calendar day of the month"
+      },
+      {
+        "value": "9th calendar day of the month"
+      },
+      {
+        "value": "10th calendar day of the month"
+      },
+      {
+        "value": "11th calendar day of the month"
+      },
+      {
+        "value": "12th calendar day of the month"
+      },
+      {
+        "value": "13th calendar day of the month"
+      },
+      {
+        "value": "14th calendar day of the month"
+      },
+      {
+        "value": "15th calendar day of the month"
+      },
+      {
+        "value": "16th calendar day of the month"
+      },
+      {
+        "value": "17th calendar day of the month"
+      },
+      {
+        "value": "18th calendar day of the month"
+      },
+      {
+        "value": "19th calendar day of the month"
+      },
+      {
+        "value": "20th calendar day of the month"
+      },
+      {
+        "value": "21st calendar day of the month"
+      },
+      {
+        "value": "22nd calendar day of the month"
+      },
+      {
+        "value": "23rd calendar day of the month"
+      },
+      {
+        "value": "24th calendar day of the month"
+      },
+      {
+        "value": "25th calendar day of the month"
+      },
+      {
+        "value": "26th calendar day of the month"
+      },
+      {
+        "value": "27th calendar day of the month"
+      },
+      {
+        "value": "28th calendar day of the month"
+      },
+      {
+        "value": "last working day of the month"
+      },
+      {
+        "value": "Monday"
+      },
+      {
+        "value": "Tuesday"
+      },
+      {
+        "value": "Wednesday"
+      },
+      {
+        "value": "Thursday"
+      },
+      {
+        "value": "Friday"
+      },
+      {
+        "value": "last day of the month"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3831"
+      }
+    ]
+  },
+  {
+    "id": 3832,
+    "label": "Is the Tenant required to pay an additional sum to cover the first Days of Rent?",
+    "name": "contract_extraFee",
+    "options": [
+      {
+        "value": "extraFeeYes",
+        "nested_fields": [
+          {
+            "id": 3842,
+            "label": "Please specify the amount",
+            "name": "contract_extraFeeAmount",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3842"
+              }
+            ]
+          },
+          {
+            "id": 3856,
+            "label": "Please confirm the number of days this amount covers",
+            "name": "contract_extraFeeDetails",
+            "options": [
+              {
+                "value": "1 day"
+              },
+              {
+                "value": "2 days"
+              },
+              {
+                "value": "3 Days"
+              },
+              {
+                "value": "4 Days"
+              },
+              {
+                "value": "5 Days"
+              },
+              {
+                "value": "6 Days"
+              },
+              {
+                "value": "7 Days"
+              },
+              {
+                "value": "8 Days"
+              },
+              {
+                "value": "9 Days"
+              },
+              {
+                "value": "10 Days"
+              },
+              {
+                "value": "11 Days"
+              },
+              {
+                "value": "12 Days"
+              },
+              {
+                "value": "13 Days"
+              },
+              {
+                "value": "14 Days"
+              },
+              {
+                "value": "15 Days"
+              },
+              {
+                "value": "16 Days"
+              },
+              {
+                "value": "17 Days"
+              },
+              {
+                "value": "18 Days"
+              },
+              {
+                "value": "19 Days"
+              },
+              {
+                "value": "20 Days"
+              },
+              {
+                "value": "21 Days"
+              },
+              {
+                "value": "22 Days"
+              },
+              {
+                "value": "23 Days"
+              },
+              {
+                "value": "24 Days"
+              },
+              {
+                "value": "25 Days"
+              },
+              {
+                "value": "26 Days"
+              },
+              {
+                "value": "27 Days"
+              },
+              {
+                "value": "28 Days"
+              },
+              {
+                "value": "29 Days"
+              },
+              {
+                "value": "30 Days"
+              },
+              {
+                "value": "60 Days"
+              },
+              {
+                "value": "90 Days"
+              }
+            ],
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3856"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "extraFeeNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3832"
+      }
+    ]
+  },
+  {
+    "id": 3833,
+    "label": "Has the landlord taken out insurance against standard risks?",
+    "name": "contract_insuredRisk",
+    "options": [
+      {
+        "value": "insuredRiskYes"
+      },
+      {
+        "value": "insuredRiskNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3833"
+      }
+    ]
+  },
+  {
+    "id": 3834,
+    "label": "Is the Tenant allowed pets?",
+    "name": "contract_pets",
+    "options": [
+      {
+        "value": "petsYes",
+        "nested_fields": [
+          {
+            "id": 3791,
+            "label": "Please specify the details of the authorised Pet",
+            "name": "contract_petsDetails",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3791"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "petsNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3834"
+      }
+    ]
+  },
+  {
+    "id": 3835,
+    "label": "Is there a Lead Tenant for the purposes of the deposit?",
+    "name": "contract_leadTenant",
+    "options": [
+      {
+        "value": "leadTenantYes",
+        "nested_fields": [
+          {
+            "id": 3795,
+            "label": "Name of the Lead Tenant",
+            "name": "contract_leadTenantName",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3795"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "leadTenantNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3835"
+      }
+    ]
+  },
+  {
+    "id": 3836,
+    "label": "Would you like to add any special terms to the tenancy agreement?",
+    "name": "contract_specialTerms",
+    "options": [
+      {
+        "value": "specialTermsYes",
+        "nested_fields": [
+          {
+            "id": 3806,
+            "label": "How many special terms are there?",
+            "name": "contract_specialTermsNumber",
+            "options": [
+              {
+                "value": "specialTermsOne",
+                "nested_fields": [
+                  {
+                    "id": 3837,
+                    "label": "Please state the special term as you want it to appear in the contract",
+                    "name": "contract_specialTermsDetails",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "href": "https://sandbox.legislate.tech/v1/terms/3837"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "value": "specialTermsTwo",
+                "nested_fields": [
+                  {
+                    "id": 3838,
+                    "label": "Please state the the first special term as you want it to appear in the contract",
+                    "name": "contract_specialTermsDetails1",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "href": "https://sandbox.legislate.tech/v1/terms/3838"
+                      }
+                    ]
+                  },
+                  {
+                    "id": 3839,
+                    "label": "Please state the the second special term as you want it to appear in the contract",
+                    "name": "contract_specialTermsDetails2",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "href": "https://sandbox.legislate.tech/v1/terms/3839"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "value": "specialTermsThree",
+                "nested_fields": [
+                  {
+                    "id": 3810,
+                    "label": "Please state the third first special term as you want it to appear in the contract",
+                    "name": "contract_specialTermsDetails5",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "href": "https://sandbox.legislate.tech/v1/terms/3810"
+                      }
+                    ]
+                  },
+                  {
+                    "id": 3840,
+                    "label": "Please state the the first special term as you want it to appear in the contract",
+                    "name": "contract_specialTermsDetails3",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "href": "https://sandbox.legislate.tech/v1/terms/3840"
+                      }
+                    ]
+                  },
+                  {
+                    "id": 3841,
+                    "label": "Please state the the second special term as you want it to appear in the contract",
+                    "name": "contract_specialTermsDetails4",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "href": "https://sandbox.legislate.tech/v1/terms/3841"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3806"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "specialTermsNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3836"
+      }
+    ]
+  },
+  {
+    "id": 3844,
+    "label": "Bank reference",
+    "name": "contract_bankReference",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3844"
+      }
+    ]
+  },
+  {
+    "id": 3845,
+    "label": "Would you like to attach the Inventory and Schedule of Condition?",
+    "name": "contract_inventory",
+    "options": [
+      {
+        "value": "inventoryYes",
+        "nested_fields": [
+          {
+            "id": 3843,
+            "label": "Upload the Schedule of Condition and Inventory",
+            "name": "contract_inventoryUpload",
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://sandbox.legislate.tech/v1/terms/3843"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "inventoryNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3845"
+      }
+    ]
+  },
+  {
+    "id": 3858,
+    "label": "Would the landlord or agent like the payments to be made by standing order?",
+    "name": "contract_standingOrder",
+    "options": [
+      {
+        "value": "standingOrderYes"
+      },
+      {
+        "value": "standingOrderNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3858"
+      }
+    ]
+  },
+  {
+    "id": 3859,
+    "label": "Must the Tenant notify the landlord immediately if they cease to be in full time employment?",
+    "name": "contract_tenantEmployment",
+    "options": [
+      {
+        "value": "tenantEmploymentYes"
+      },
+      {
+        "value": "tenantEmploymentNo"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://sandbox.legislate.tech/v1/terms/3859"
+      }
+    ]
+  }
+]

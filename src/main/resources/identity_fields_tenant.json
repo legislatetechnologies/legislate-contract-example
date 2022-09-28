@@ -1,0 +1,56 @@
+[
+  {
+    "id": 2112,
+    "label": "First Name",
+    "value": ""
+  },
+  {
+    "id": 2113,
+    "label": "Last Name",
+    "value": ""
+  },
+  {
+    "id": 2114,
+    "label": "Email",
+    "validationType": "EMAIL",
+    "value": ""
+  },
+  {
+    "id": 2115,
+    "label": "Current address",
+    "value": ""
+  },
+  {
+    "id": 2116,
+    "label": "Mobile",
+    "value": ""
+  },
+  {
+    "id": 2121,
+    "label": "Are you a Tenant or Guarantor?",
+    "options": [
+      {
+        "name": "tenant"
+      },
+      {
+        "name": "guarantor",
+        "nested_fields": [
+          {
+            "id": 2122,
+            "type": "input",
+            "label": "Please specify the name of the Tenant",
+            "required": true,
+            "index": 5,
+            "parentOption": "guarantor",
+            "side": "second",
+            "identity_field_id": 6754496734560423
+          }
+        ]
+      },
+      {
+        "name": "other"
+      }
+    ],
+    "value": ""
+  }
+]
